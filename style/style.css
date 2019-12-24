@@ -1,28 +1,26 @@
 
 .header {
-  margin-top: 8%;
+  margin-top: 4%;
 }
 #mainHeader {
   width: 100%;
   margin: 0 auto;
-  text-align: center;
   color: #303030;
-}
-#mainHeader h5 {
-  margin-bottom:6rem;
+  margin-bottom:8rem;
 }
 .nav {
-  margin: 4% auto;
+  margin: 7px auto;
   width: 100%;
+
 }
+
 body {
   background-color:#fafafa;
 }
 .nav a { 
   text-decoration: none;
   opacity:0.25;
-  margin:auto 8%;
-  text-align: center;
+  margin:auto 2% auto 4%;
   color: #303030;
 }
 .nav a:hover{ 
@@ -65,4 +63,18 @@ img {
   border-radius: 8px;
   margin-bottom: 2.5%;
   box-shadow: 4px 4px 14px 0 rgba(81,77,77,0.14);
+}
+@media (max-width: 550px) {
+  .nav {
+    margin: 0;
+  }
+  .nav a { 
+    margin-left: 0;
+}
+}@media (min-width: 550px) {
+  .nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  }
 }
