@@ -1,12 +1,12 @@
 
 .header {
   margin-top: 4%;
+  border-bottom: 1px solid #E6E6E6;
 }
 #mainHeader {
   width: 100%;
-  margin: 0 auto;
   color: #303030;
-  margin-bottom:6rem;
+  padding-bottom:2rem;
 }
 .nav {
   margin: 7px auto;
